@@ -104,7 +104,20 @@
        <td><?=$row['player_size']?></td>
        <td><?=$row['total_player']?></td>
        <td><?=$row['start_date']?></td>
-       <td><?=$row['end_date']?></td>
+
+       <td>
+       <?php
+                                            if ($row['end_date'] != '0' && $row['end_date'] != '') {
+                                                echo $row['end_date'];
+                                            } else {
+                                                echo "Not Specified";
+                                            }
+                                            ?>
+       
+       
+       
+       
+       </td>
        <td><?=$row['place']?></td>
        <td><?=$row['entry_fees']?></td>
        <td><?=$row['wining_price']?></td>

@@ -164,6 +164,16 @@
 							</div>
 						</div>
 						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<tr>
+								<td>captain name</td>:</td>
+								<td><input type="text" id="team_captain" name="team_captain" class="form-control"></td>
+							</tr>
+							</div>
+						</div>
+
+
 						<div class="form-group">
 							<tr>
 								<input type="hidden" name="rid" value="<?=$rid?>">

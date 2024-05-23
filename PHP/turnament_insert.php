@@ -11,8 +11,10 @@
    $date=$_POST['date'];
    $team=$_POST['team'];
   
-   include('connection_db.php');
-   $q="INSERT INTO entry_register_tournament(user_id, game_name, name, email, contact, address, apply_date, team_name)VALUES('$id','$game','$name','$email','$contact','$address','$date','$team') ";
+   //include('connection_db.php');
+   $con=mysqli_connect("localhost","root","","sportclub");
+
+   $q="INSERT INTO entry_register_tournament(user_id,game_name, name, email, contact, address, apply_date, team_name)VALUES('$id','$game','$name','$email','$contact','$address','$date','$team') ";
   $data=mysqli_query($con,$q);
     if($data){
      

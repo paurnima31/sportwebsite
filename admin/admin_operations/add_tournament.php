@@ -149,7 +149,7 @@
        <th colspan="2"><input type="date" id="tf" name="end_date"></th>
      </tr>
     <tr>
-       <td colspan="2" align="left"> Entry Fees :</th>
+       <td colspan="2" align="left"> Entry Fees per Player :</th>
        <th colspan="2"><input type="text" id="tf" name="e_fees"></th>
      </tr>
      <tr>

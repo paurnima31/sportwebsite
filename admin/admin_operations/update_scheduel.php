@@ -150,6 +150,8 @@
        <th colspan="2" align="left"> Match Place :</th>
        <th colspan="2"><input type="text" id="tf" name="place" value="<?=$row['place']?>"></th>
      </tr>
+     <tr>
+
      
  </table>
  <table class="tbl2">

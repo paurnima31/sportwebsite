@@ -51,7 +51,8 @@
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
+        
+        <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
@@ -79,8 +80,9 @@
        <th>EMAIL</th>
        <th>CONTACT</th>
        <th>APPLY DATE</th>
-      
+      <th>CAPTAIN</th>
        <th>TEAM NAME</th>
+++++++++
         <th>DELETE</th>
        
        
@@ -105,7 +107,10 @@
        <td><?=$row['email']?></td>
        <td><?=$row['contact']?></td>
        <td><?=$row['apply_date']?></td>
+       
        <td><?=$row['team_name']?></td>
+       <td><?=$row['team_name']?></td>
+
        <td><a href="./php/delete_entry.php?rid=<?=$row['r_id']?>">DELETE</a></td>
     </tr>
   <?php

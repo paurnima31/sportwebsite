@@ -74,6 +74,7 @@
 
     <tr style="border-bottom: 2px solid">
        <th>TEAM NAME</th>
+       <th>GAME NAME</th>
        <th>TEAM CAPTIAN</th>
        <th>TOTAL PLAYERS</th>
        <th>PARTICIPATE PLAYER</th>
@@ -100,7 +101,9 @@
        <td><?=$row['total_player']?></td>
        <td><?=$row['participate_player']?></td>
        <td><?=$row['extra_player']?></td>
-      
+
+       <td><?=$row['game_name']?></td>
+
       
        <td><a href="./php/delete_team.php?tid=<?=$row['team_id'];?>">DELETE</a></td>
      

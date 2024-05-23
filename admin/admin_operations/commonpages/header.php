@@ -67,6 +67,16 @@
                   <ul class="dropdown">
                     <li><a href="view_feedback.php">View Feedback</a></li>
                    
+
+
+                    <li class="has-children">
+                  <a href="#">Match result</a>
+                  <ul class="dropdown">
+                    <li><a href="view_feedback.php">winner team</a></li>
+                   
+                    <li><a href="view_feedback.php">looser</a></li>
+
+
                     
                   
                     <!-- 

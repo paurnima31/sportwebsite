@@ -8,11 +8,12 @@ if(isset($_POST['schedule'])){
  $date=$_POST['m_date'];
  $time=$_POST['m_time'];
  $place=$_POST['place'];
+ $status=$_POST['status'];
  
 
    include("connection_db.php");
 
-    $sql="UPDATE schedule SET game_name='$gname', groupA_team_name='$teama', groupB_team_name='$teamb', s_date='$date', s_time='$time', place='$place' WHERE s_id='$sid'";
+    $sql="UPDATE schedule SET game_name='$gname', groupA_team_name='$teama', groupB_team_name='$teamb', s_date='$date', s_time='$time', place='$place',status='$status', WHERE s_id='$sid'";
     $data=mysqli_query($con,$sql);
     if($data){
     	echo '<script type="text/javascript">'; 

@@ -149,6 +149,18 @@
 							</tr>
 							</div>
 						</div>
+
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<tr>
+								<td>Team Name:</td>
+								<td><textarea rows="3" cols="25" name="team name">
+									
+								</textarea></td>
+							</tr>
+							</div>
+						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
 								<tr>
@@ -169,6 +181,7 @@
 							</tr>
 							</div>
 						</div>
+						
 						
 						<div class="form-group">
 							<tr>

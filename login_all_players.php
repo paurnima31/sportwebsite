@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+f<!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -108,12 +108,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="num">Call: +01 123 456 7890</p>
+						<!--<p class="num">Call: +01 123 456 7890</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 							<li><a href="#"><i class="icon-github"></i></a></li>
 						</ul>
+-->
 					</div>
 				</div>
 			</div>
@@ -123,7 +124,7 @@
 	</nav>
 
 
-	<!-- <header id="fh5co-header" class="fh5co-cover animate" role="banner" style="" data-stellar-background-ratio="0.5">
+	 <header id="fh5co-header" class="fh5co-cover animate" role="banner" style="" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">

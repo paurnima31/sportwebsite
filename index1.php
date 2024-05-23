@@ -221,7 +221,9 @@
 			
 			<div class="row row-bottom-padded-md">
  <?php
-            include('./PHP/connection_db.php');
+      $con=mysqli_connect("localhost","root","","sportclub");
+
+            //include('./PHP/connection_db.php');
               $sql="SELECT t_id, game_name, game_type, player_size, total_player, start_date, end_date, place, entry_fees, wining_price FROM tournament";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){

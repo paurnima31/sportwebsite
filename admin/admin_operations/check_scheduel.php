@@ -81,6 +81,11 @@
        <th>PLACE</th> 
        <th>DELETE</th>
        <th>UPDATE</th>
+       <th>MATCH STATUS</th>
+       
+
+
+
     </tr>
     <?php
    if(isset($_POST['view'])){
@@ -103,8 +108,20 @@
        <td><?=$row['s_time']?></td>
        <td><?=$row['place']?></td>
        
+       
        <td><a href="./php/delete_scheduel.php?sid=<?=$row['s_id'];?>">DELETE</a></td>
        <td><a href="update_scheduel.php?sid=<?=$row['s_id'];?>">UPDATE</a></td>
+       <td>
+    <!--<a href="update_scheduel.php?sid=<?=$row['s_id'];?>">RESULT</a>-->
+    <select name="match_status">
+        <option value="pending">FIRST WIN</option>
+        <option value="completed">SECOND WIN</option>
+        <!-- Add more options as needed -->
+    </select>
+</td>
+
+        
+       
     </tr>
   <?php
    }
